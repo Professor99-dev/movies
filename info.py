@@ -14,22 +14,20 @@ def is_enabled(value, default):
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '25232642'))
-API_HASH = environ.get('API_HASH', '68c527fba557b1a4603f142f39dc6de2
-')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8159976038:AAGH1xP9R6DfQkqJVm56RJP5sFqo37yK88c')
+API_HASH = environ.get('API_HASH', '68c527fba557b1a4603f142f39dc6de2')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7889506603:AAF1PjoblNPD_vQ30HddLbJbBJjzNL1uTCk')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5243845210').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Inside_of_devil") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002472395092'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+-C2UXurGEmo0MDY9')
+USERNAME = environ.get('USERNAME', "https://t.me/Its_Me_Radhikaa") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002345361955'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/DreamHousePublic')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002194586729
 ').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://DearDevil:DearDevil@deardevil.npqq7.mongodb.net/?retryWrites=true&w=majority&appName=DearDevil
-")
-DATABASE_NAME = environ.get('DATABASE_NAME', "DearDevil")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sanjuatrix:sanjuatrix@professor.dhdjt.mongodb.net/?retryWrites=true&w=majority&appName=Professor")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Professor")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
